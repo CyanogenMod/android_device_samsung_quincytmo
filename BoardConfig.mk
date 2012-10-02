@@ -34,10 +34,6 @@ TARGET_OTA_ASSERT_DEVICE := SGH-T879,quincytmo
 # Kernel
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
 TARGET_KERNEL_CONFIG        := cyanogenmod_quincytmo_defconfig
-BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom usb_id_pin_rework=true
-BOARD_KERNEL_BASE           := 0x48000000
-BOARD_FORCE_RAMDISK_ADDRESS := 0x49400000
-BOARD_KERNEL_PAGESIZE       := 2048
 
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00A00000
