@@ -26,7 +26,7 @@
 # inherit from the proprietary version
 -include vendor/samsung/quincytmo/BoardConfigVendor.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := SGH-T879
+TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGH-T879,quincytmo
